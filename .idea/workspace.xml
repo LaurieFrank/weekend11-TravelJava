@@ -5,6 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Flight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Flight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Flight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FlightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FlightTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FlightTest.checkNumberOfAvailableSeats">
+  <component name="RunManager" selected="JUnit.FlightTest.addPassengerToFlight">
     <configuration name="FlightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wkend11" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,21 +61,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.checkNumberOfAvailableSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightTest.addPassengerToFlight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wkend11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="checkNumberOfAvailableSeats" />
+      <option name="METHOD_NAME" value="addPassengerToFlight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightTest.getFlightNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlightTest.areSeatsAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wkend11" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FlightTest" />
-      <option name="METHOD_NAME" value="getFlightNumber" />
+      <option name="METHOD_NAME" value="areSeatsAvailable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightTest.checkNumberOfAvailableSeats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wkend11" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightTest" />
+      <option name="METHOD_NAME" value="checkNumberOfAvailableSeats" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,23 +101,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassengerTest.checkPassengerBags" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="wkend11" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PassengerTest" />
-      <option name="METHOD_NAME" value="checkPassengerBags" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightTest.addPassengerToFlight" />
+        <item itemvalue="JUnit.FlightTest.areSeatsAvailable" />
         <item itemvalue="JUnit.FlightTest.checkNumberOfAvailableSeats" />
         <item itemvalue="JUnit.FlightTest.getPassengerNumbers" />
         <item itemvalue="JUnit.FlightTest" />
-        <item itemvalue="JUnit.FlightTest.getFlightNumber" />
-        <item itemvalue="JUnit.PassengerTest.checkPassengerBags" />
       </list>
     </recent_temporary>
   </component>

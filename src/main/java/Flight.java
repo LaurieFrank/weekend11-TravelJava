@@ -45,4 +45,18 @@ public class Flight {
     public int checkNumberOfAvailableSeats() {
         return this.planeType.getCapacity() - getPassengerNumbers();
     }
+
+    //how to refactor this?
+    public boolean areSeatsAvailable() {
+        if(checkNumberOfAvailableSeats() >= 1){
+            return true;} else {
+            return false;
+            }
+        }
+
+
+    public void addPassengerToFlight(Passenger passenger1) {
+        passengers.add(passenger1);
+    }
 }
+
