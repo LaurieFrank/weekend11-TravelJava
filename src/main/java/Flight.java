@@ -54,9 +54,11 @@ public class Flight {
             }
         }
 
-
-    public void addPassengerToFlight(Passenger passenger1) {
-        passengers.add(passenger1);
+    public void bookPassengerInToFlight(Passenger passenger) {
+        if (areSeatsAvailable()) {
+        passengers.add(passenger);
+        }
     }
 }
+
 

@@ -54,8 +54,8 @@ public class FlightTest {
     }
 
     @Test
-    public void addPassengerToFlight(){
-        flight.addPassengerToFlight(passenger1);
+    public void bookInPassengerToFlight(){
+        flight.bookPassengerInToFlight(passenger1);
         assertEquals(1, flight.getPassengerNumbers());
     }
 
